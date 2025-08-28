@@ -1,0 +1,23 @@
+{
+    "links": [],
+    "labels": {
+        "Create CSmsSettings": "Create SmsSetting"
+    },
+    "fields": {
+        "licensekey": "Licensekey",
+        "endpoint": "Endpoint",
+        "ttl": "TTL",
+        "centroCustos": "CentroCustos",
+        "startDate": "StartDate",
+        "alfaSender": "AlfaSender",
+        "host": "Host",
+        "envio24": "Envio24",
+        "password": "Password"
+    },
+    "options": {
+        "envio24": [
+            "false",
+            "true"
+        ]
+    }
+}

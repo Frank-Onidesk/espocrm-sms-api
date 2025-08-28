@@ -1,0 +1,27 @@
+[
+    {
+        "name": "host",
+        "align": "left"
+    },
+    {
+        "name": "endpoint"
+    },
+    {
+        "name": "licensekey"
+    },
+    {
+        "name": "ttl"
+    },
+    {
+        "name": "alfaSender"
+    },
+    {
+        "name": "envio24h"
+    },
+    {
+        "name": "centroCustos"
+    },
+    {
+        "name": "password"
+    }
+]

@@ -1,0 +1,102 @@
+define('custom:views/c-sms-settings/list', ['views/list'],
+    function(Dep) {
+
+        return Dep.extend({
+
+            setup: function() {
+                Dep.prototype.setup.call(this);
+                this.disabledCreate = true;
+
+                this.disableEditable();
+            },
+
+            afterRender: function() {
+                Dep.prototype.afterRender.call(this);
+                this.removeCreateButton();
+            },
+
+            removeCreateButton: function() {
+                var self = this;
+
+                // Try multiple times with increasing delays
+                var attempts = 0;
+                var maxAttempts = 10;
+
+                var tryToRemove = function() {
+                    attempts++;
+
+                    // Try multiple selectors
+                    var selectors = [
+                        'button[data-name="create"]',
+                        'button[data-action="create"]',
+                        'a[data-name="create"]',
+                        'a[data-action="create"]'
+                    ];
+
+                    var found = false;
+
+                    for (var i = 0; i < selectors.length; i++) {
+                        var button = $(selectors[i]);
+                        if (button.length) {
+                            button.remove();
+                            console.log('Create button removed with selector: ' + selectors[i]);
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (!found && attempts < maxAttempts) {
+                        // Try again after a short delay
+                        setTimeout(tryToRemove, 300);
+                    } else if (!found) {
+                        console.warn('Create button not found after ' + maxAttempts + ' attempts');
+                    }
+                };
+
+                // Start trying to remove the button
+                setTimeout(tryToRemove, 100);
+            },
+
+
+
+            disableEditable: function() {
+                //record-checkbox-container
+
+                //var editButton  = this.$el.find('');
+
+                //<button type="button" class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+
+                this.on('after:render', function() {
+                    if (this.getUser().isAdmin()) {
+
+                        console.log('Admin user logged');
+
+
+                        var self = this;
+
+                        // Add click event listener to all checkboxes
+                        this.$el.find('.record-checkbox').on('click', function(e) {
+                            var checkbox = $(this);
+                            var recordId = checkbox.data('id');
+                            var isChecked = checkbox.is(':checked');
+
+                            // Handle the checkbox click
+                            self.onCheckboxClick(recordId, isChecked, checkbox);
+                        });
+
+
+
+                    }
+                });
+
+
+
+            },
+
+
+            onCheckboxClick: function(recordId, isChecked, checkboxElement) {
+                console.log('Checkbox clicked for record:', recordId, 'Checked:', isChecked);
+            }
+
+        });
+    });

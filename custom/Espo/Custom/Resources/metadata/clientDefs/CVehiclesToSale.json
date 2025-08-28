@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": "fas fa-car-side",
+    "relationshipPanels": {
+        "cMStands": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

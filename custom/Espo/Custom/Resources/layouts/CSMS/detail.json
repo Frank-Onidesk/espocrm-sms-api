@@ -1,0 +1,30 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "parent"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                false
+            ],
+            [
+                false
+            ],
+            [
+                {
+                    "name": "smsText"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

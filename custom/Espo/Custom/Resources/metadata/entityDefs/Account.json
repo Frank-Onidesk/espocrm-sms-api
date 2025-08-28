@@ -1,0 +1,10 @@
+{
+    "links": {
+        "cSMSChildren": {
+            "type": "hasChildren",
+            "foreign": "parent",
+            "entity": "CSMS",
+            "isCustom": true
+        }
+    }
+}

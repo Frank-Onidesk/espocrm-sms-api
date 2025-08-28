@@ -1,0 +1,38 @@
+{
+    "labels": {
+        "Create CCMStands": "Criar CMStand"
+    },
+    "fields": {
+        "extenalId": "ExtenalId",
+        "status": "Status",
+        "main": "Principal",
+        "email": "Email",
+        "addressStreet": "AddressStreet",
+        "addressZipCode": "AddressZipCode",
+        "addressLocal": "AddressLocal",
+        "districtId": "DistrictId",
+        "districtName": "DistrictName",
+        "cityId": "CityId",
+        "cityName": "CityName",
+        "coordinates": "Coordinates",
+        "phonenumber": "Phone_number",
+        "mobilenumber": "Mobile_number",
+        "mobilenumber2": "Mobile_number2",
+        "mobilenumber3": "Mobile_number3",
+        "fax": "Fax",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "youtube": "Youtube",
+        "messenger": "Messenger",
+        "whatsapp": "Whatsapp",
+        "embedgoogle": "Embed_google",
+        "linkgoogle": "Link_google",
+        "numbervehicles": "Number_vehicles",
+        "cMVehicles": "veiculosCm",
+        "vehiclesToSales": "veiculosVenda"
+    },
+    "links": {
+        "cMVehicles": "veiculosCm",
+        "vehiclesToSales": "veiculosVenda"
+    }
+}

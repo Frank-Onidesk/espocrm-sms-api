@@ -1,0 +1,8 @@
+[{
+    "route": "/CSMS/action/SendSms",
+    "method": "post",
+    "params": {
+        "controller": "CSMS",
+        "action": "sendSms"
+    }
+}]

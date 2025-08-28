@@ -1,0 +1,40 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "host"
+                },
+                {
+                    "name": "endpoint"
+                }
+            ],
+            [
+                {
+                    "name": "licensekey"
+                },
+                {
+                    "name": "centroCustos"
+                }
+            ],
+            [
+                {
+                    "name": "envio24h"
+                },
+                {
+                    "name": "ttl"
+                }
+            ],
+            [
+                {
+                    "name": "alfaSender"
+                },
+                {
+                    "name": "password"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

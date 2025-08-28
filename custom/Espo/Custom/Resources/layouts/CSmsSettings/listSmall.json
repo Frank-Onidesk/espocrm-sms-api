@@ -1,0 +1,26 @@
+[
+    {
+        "name": "host"
+    },
+    {
+        "name": "endpoint"
+    },
+    {
+        "name": "ttl"
+    },
+    {
+        "name": "licensekey"
+    },
+    {
+        "name": "centroCustos"
+    },
+    {
+        "name": "envio24"
+    },
+    {
+        "name": "alfaSender"
+    },
+    {
+        "name": "startDate"
+    }
+]

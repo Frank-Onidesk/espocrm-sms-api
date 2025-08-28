@@ -1,0 +1,11 @@
+{
+    "views": {
+        "list": "custom:views/c-sms-settings/list"
+    },
+
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-tools"
+}

@@ -1,0 +1,95 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+/logs/
+
+# Cache
+/cache/
+*.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# EspoCRM specific (adjust as needed)
+
+# EspoCRM specific
+/application/*
+/bin/*
+/data/*
+/html/*
+/install/*
+/public/*
+
+# Client directory - ignore everything except custom
+/client/*
+!/client/custom/
+
+# Custom directory - ignore everything except specific paths
+/custom/*
+!/custom/Espo/
+/custom/Espo/*
+!/custom/Espo/Custom/
+/custom/Espo/Custom/*
+!/custom/Espo/Custom/Controllers/
+!/custom/Espo/Custom/Controllers/CSMS.php
+!/custom/Espo/Custom/Resources/
+!/custom/Espo/Custom/Resources/layouts/
+!/custom/Espo/Custom/Resources/layouts/CSMS/
+!/custom/Espo/Custom/Resources/layouts/CSMS/*
+!/custom/Espo/Custom/Resources/metadata/
+!/custom/Espo/Custom/Resources/metadata/clientDefs/
+!/custom/Espo/Custom/Resources/metadata/clientDefs/CSMS.json
+!/custom/Espo/Custom/Resources/metadata/entityDefs/
+!/custom/Espo/Custom/Resources/metadata/entityDefs/Account.json
+!/custom/Espo/Custom/Resources/metadata/entityDefs/Contact.json
+!/custom/Espo/Custom/Resources/metadata/entityDefs/CSMS.json
+!/custom/Espo/Custom/Resources/metadata/entityDefs/Lead.json
+!/custom/Espo/Custom/Resources/metadata/recordDefs/
+!/custom/Espo/Custom/Resources/metadata/recordDefs/CSMS.json
+!/custom/Espo/Custom/Resources/metadata/scopes/
+!/custom/Espo/Custom/Resources/metadata/scopes/CSMS.json
+!/custom/Espo/Custom/Resources/metadata/selectDefs/
+!/custom/Espo/Custom/Resources/metadata/selectDefs/CSMS.json
+!/custom/Espo/Custom/Resources/routes.json
+!/custom/Espo/Custom/Resources/services.json
+!/custom/Espo/Custom/Services/
+!/custom/Espo/Custom/Services/SmsService.php
+
+# Core files to ignore
+/.htaccess
+/bootstrap.php
+/clear_cache.php
+/command.php
+/cron.php
+/daemon.php
+/extension.php
+/index.php
+/LICENSE.txt
+/preload.php
+/rebuild.php
+/upgrade.php
+/websocket.php

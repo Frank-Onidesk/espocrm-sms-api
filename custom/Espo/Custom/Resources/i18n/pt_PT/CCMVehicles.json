@@ -1,0 +1,11 @@
+{
+    "labels": {
+        "Create CCMVehicles": "Criar CMVehicle"
+    },
+    "fields": {
+        "cMStands": "standsCm"
+    },
+    "links": {
+        "cMStands": "standsCm"
+    }
+}

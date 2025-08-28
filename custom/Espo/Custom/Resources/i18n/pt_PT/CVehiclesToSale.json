@@ -1,0 +1,44 @@
+{
+    "labels": {
+        "Create CVehiclesToSale": "Criar VehiclesToSale"
+    },
+    "fields": {
+        "active": "Active",
+        "vehicleType": "VehicleType",
+        "titleWebSite": "TitleWebSite",
+        "km": "Km",
+        "month": "Month",
+        "year": "Year",
+        "brand": "Brand",
+        "model": "Model",
+        "fuel": "Fuel",
+        "cv": "Cv",
+        "engine": "Engine",
+        "doorsNo": "DoorsNo",
+        "gearbox": "Gearbox",
+        "segment": "Segment",
+        "color": "Color",
+        "photos": "Photos",
+        "video": "Video",
+        "traction": "Traction",
+        "co2": "Co2",
+        "seats": "Seats",
+        "shiftsNo": "ShiftsNo",
+        "iuc": "Iuc",
+        "autonomy": "Autonomy",
+        "vehicleClass": "VehicleClass",
+        "audioMultimedia": "AudioMultimedia",
+        "tecnology": "Tecnology",
+        "drivingAssistance": "DrivingAssistance",
+        "security": "Security",
+        "confort": "Confort",
+        "price": "Price",
+        "goToLanding": "GoToLanding",
+        "campaignLabel": "CampaignLabel",
+        "featured": "Featured",
+        "cMStands": "standsCm"
+    },
+    "links": {
+        "cMStands": "standsCm"
+    }
+}

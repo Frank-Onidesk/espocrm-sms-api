@@ -1,0 +1,20 @@
+{
+    "scopeNames": {
+        "CSMS": "SMS",
+        "CVehiclesToSale": "VehiclesToSale",
+        "CCMStands": "CMStand",
+        "CCMVehicles": "CMVehicle",
+        "CSmsSettings": "SmsSetting"
+    },
+    "scopeNamesPlural": {
+        "CSMS": "SMSs",
+        "CVehiclesToSale": "Vehicles_to_sales",
+        "CCMStands": "CMStands",
+        "CCMVehicles": "CMVehicles",
+        "CSmsSettings": "SmsSettings"
+    },
+    "labels": {
+        "Schedule CSMS": "Schedule SMS",
+        "Log CSMS": "Log SMS"
+    }
+}

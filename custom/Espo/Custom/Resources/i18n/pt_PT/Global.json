@@ -1,0 +1,9 @@
+{
+    "labels": {
+        "Schedule CSMS": "Schedule SMS",
+        "Log CSMS": "Log SMS"
+    },
+    "scopeNames": {
+        "CVehiclesToSale": "VehiclesToSale"
+    }
+}
